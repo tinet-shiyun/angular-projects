@@ -26,6 +26,7 @@ export class IndexComponent{
 
     // let a = 0;
     // a = 1;
+
   }
 
   /**箭头函数没有arguments，它的arguments指向它所在作用域下的arguments */
@@ -52,6 +53,7 @@ export class IndexComponent{
 
   /**箭头函数实践 */
   practiceFn(){
+    console.log('object :>> ');
     let practiceDom = document.getElementById('practice')
     // practiceDom.addEventListener('click', function(){
 
